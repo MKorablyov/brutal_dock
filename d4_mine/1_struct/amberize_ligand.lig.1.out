@@ -1,0 +1,69 @@
+Using ligand file prefix: lig.1
+Using antechamber options: -nc 0 -c bcc
+Executing antechamber to generate the mol2 file with GAFF and charges.
+
+
+Total number of electrons: 66; net charge: 0
+
+Running: $DOCK_HOME/bin/mopac.sh
+
+Running: /home/maksym/Programs/dock6/bin/am1bcc -i ANTECHAMBER_AM1BCC_PRE.AC -o ANTECHAMBER_AM1BCC.AC -f ac -p /home/maksym/Programs/dock6/parameters/antechamber/BCCPARM.DAT -s 2 -j 1
+
+
+Running: /home/maksym/Programs/dock6/bin/atomtype -f ac -p bcc -o ANTECHAMBER_AM1BCC.AC -i ANTECHAMBER_AM1BCC_PRE.AC
+Running: /home/maksym/Programs/dock6/bin/bondtype -i ANTECHAMBER_BOND_TYPE.AC0 -o ANTECHAMBER_BOND_TYPE.AC -f ac -j full
+
+Running: /home/maksym/Programs/dock6/bin/atomtype -i ANTECHAMBER_AC.AC0 -o ANTECHAMBER_AC.AC -p gaff
+
+Executing parmchk to generate the force field parameters.
+Executing LEaP to generate the Amber input files.
+-I: Adding /home/maksym/Programs/dock6/parameters/leap/prep to search path.
+-I: Adding /home/maksym/Programs/dock6/parameters/leap/lib to search path.
+-I: Adding /home/maksym/Programs/dock6/parameters/leap/parm to search path.
+-I: Adding /home/maksym/Programs/dock6/parameters/leap/cmd to search path.
+-s: Ignoring startup file: leaprc
+-f: Source /tmp/_home_maksym_Programs_dock6_bin_amberize_ligand.leapin.11979.
+
+Welcome to LEaP!
+Sourcing: /tmp/_home_maksym_Programs_dock6_bin_amberize_ligand.leapin.11979
+Log file: ./leap.log
+----- Source: /home/maksym/Programs/dock6/parameters/leap/cmd/leaprc.gaff
+----- Source of /home/maksym/Programs/dock6/parameters/leap/cmd/leaprc.gaff done
+Log file: ./leap.log
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/gaff.dat
+Reading title:
+AMBER General Force Field for organic mol., add. info. at the end (June, 2003)
+Loading parameters: ./lig.1.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+remark goes here
+----- Source: /home/maksym/Programs/dock6/parameters/leap/cmd/leaprc.dock.user
+----- Source of /home/maksym/Programs/dock6/parameters/leap/cmd/leaprc.dock.user done
+Loading Mol2 file: ./lig.1.gaff.mol2
+Reading MOLECULE named AAH
+Checking 'lig.1'....
+Checking parameters for unit 'lig.1'.
+Checking for bond parameters.
+Checking for angle parameters.
+Unit is OK.
+Writing pdb file: lig.1.amber.pdb
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 7 improper torsions applied
+Building H-Bond parameters.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	AAH	1
+  )
+ (no restraints)
+	Quit

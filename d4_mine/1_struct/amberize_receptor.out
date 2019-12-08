@@ -1,0 +1,231 @@
+Using receptor file prefix: 1lgu
+-I: Adding /home/maksym/Programs/dock6/parameters/leap/prep to search path.
+-I: Adding /home/maksym/Programs/dock6/parameters/leap/lib to search path.
+-I: Adding /home/maksym/Programs/dock6/parameters/leap/parm to search path.
+-I: Adding /home/maksym/Programs/dock6/parameters/leap/cmd to search path.
+-s: Ignoring startup file: leaprc
+-f: Source /tmp/_home_maksym_Programs_dock6_bin_amberize_receptor.leapin.11967.
+
+Welcome to LEaP!
+Sourcing: /tmp/_home_maksym_Programs_dock6_bin_amberize_receptor.leapin.11967
+Log file: ./leap.log
+----- Source: /home/maksym/Programs/dock6/parameters/leap/cmd/leaprc.ff94
+----- Source of /home/maksym/Programs/dock6/parameters/leap/cmd/leaprc.ff94 done
+Log file: ./leap.log
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/parm94.dat
+Reading title:
+PARM94 for DNA, RNA and proteins with TIP3P Water. USE SCEE=1.2 in energy progs
+Loading library: /home/maksym/Programs/dock6/parameters/leap/lib/all_nucleic94.lib
+Loading library: /home/maksym/Programs/dock6/parameters/leap/lib/all_amino94.lib
+Loading library: /home/maksym/Programs/dock6/parameters/leap/lib/all_aminoct94.lib
+Loading library: /home/maksym/Programs/dock6/parameters/leap/lib/all_aminont94.lib
+Loading library: /home/maksym/Programs/dock6/parameters/leap/lib/ions94.lib
+Loading library: /home/maksym/Programs/dock6/parameters/leap/lib/solvents.lib
+----- Source: /home/maksym/Programs/dock6/parameters/leap/cmd/leaprc.gaff
+----- Source of /home/maksym/Programs/dock6/parameters/leap/cmd/leaprc.gaff done
+Log file: ./leap.log
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/gaff.dat
+Reading title:
+AMBER General Force Field for organic mol., add. info. at the end (June, 2003)
+----- Source: /home/maksym/Programs/dock6/parameters/leap/cmd/leaprc.dock.ions
+----- Source of /home/maksym/Programs/dock6/parameters/leap/cmd/leaprc.dock.ions done
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/frcmod.dock.ions
+Reading force field modification type file (frcmod)
+Reading title:
+DOCK Amber Score Ion Library
+Loading library: /home/maksym/Programs/dock6/parameters/leap/lib/ions.dock.lib
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/act.mol2
+Reading MOLECULE named ACT  Acetate anion.
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/act.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Acetate anion from 1U8D: parmchk -f mol2 -i act.mol2 -o act.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/co3.mol2
+Reading MOLECULE named CO3  CARBONATE DIANION.  C O3. 
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/co3.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+CARBONATE DIANION:  parmchk -f mol2 -i co3.mol2 -o co3.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/po4.mol2
+Reading MOLECULE named PO4  PHOSPHATE ION.  O4 P. 
+Could not open file po4.frcmod: not found
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/so4.mol2
+Reading MOLECULE named SO4  Sulfate dianion.
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/so4.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Sulfate dianion from 1XPF: parmchk -f mol2 -i so4.mol2 -o so4.frcmod
+----- Source: /home/maksym/Programs/dock6/parameters/leap/cmd/leaprc.dock.cofactors
+----- Source of /home/maksym/Programs/dock6/parameters/leap/cmd/leaprc.dock.cofactors done
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/adp.mol2
+Reading MOLECULE named ADP  ADENOSINE-5'-DIPHOSPHATE.  C10 H15 N5 O10 P2.
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/adp.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+ADENOSINE-5'-DIPHOSPHATE:  parmchk -f mol2 -i adp.mol2 -o adp.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/apc.mol2
+Reading MOLECULE named APC  DIPHOSPHOMETHYLPHOSPHONIC ACID ADENOSYL ESTER.  C11 H18 N5 O12 P3. 
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/apc.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+DIPHOSPHOMETHYLPHOSPHONIC ACID ADENOSYL ESTER: parmchk -f mol2 -i apc.mol2 -o apc.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/bal.mol2
+Reading MOLECULE named BAL  BETA-ALANINE.  C3 H7 N O2. 
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/bma.mol2
+Reading MOLECULE named BMA  Beta-D-Mannose.  C6 H12 O6.
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/bme.mol2
+Reading MOLECULE named BME  Beta-Mercaptoethanol.  C2 H6 O S.
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/bog.mol2
+Reading MOLECULE named BOG  B-OCTYLGLUCOSIDE.  C14 H28 O6. 
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/dms.mol2
+Reading MOLECULE named DMS  DIMETHYL SULFOXIDE.  C2 H6 O S. 
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/edo.mol2
+Reading MOLECULE named EDO  1,2-ETHANEDIOL.  C2 H6 O2. 
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/eoh.mol2
+Reading MOLECULE named EOH  ETHANOL.  C2 H6 O. 
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/fad.mol2
+Reading MOLECULE named FAD  FLAVIN-ADENINE DINUCLEOTIDE.  C27 H33 N9 O15 P2. 
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/fad.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+FLAVIN-ADENINE DINUCLEOTIDE:  parmchk -f mol2 -i fad.mol2 -o fad.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/fpp.mol2
+Reading MOLECULE named FPP  FARNESYL DIPHOSPHATE.  C15 H28 O7 P2. 
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/fpp.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+FARNESYL DIPHOSPHATE:  parmchk -f mol2 -i fpp.mol2 -o fpp.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/fuc.mol2
+Reading MOLECULE named FUC  Alpha-L-Fucose.  C6 H12 O5.
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/glc.mol2
+Reading MOLECULE named GLC  ALPHA-D-GLUCOSE.  C6 H12 O6. 
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/gol.mol2
+Reading MOLECULE named GOL  GLYCEROL.  C3 H8 O3. 
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/h4b.mol2
+Reading MOLECULE named H4B  5,6,7,8-TETRAHYDROBIOPTERIN.  C9 H15 N5 O3. 
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/h4b.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+5,6,7,8-TETRAHYDROBIOPTERIN:  parmchk -f mol2 -i h4b.mol2 -o h4b.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/imp.mol2
+Reading MOLECULE named IMP  INOSINIC ACID.  C10 H13 N4 O8 P. 
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/imp.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+INOSINIC ACID:  parmchk -f mol2 -i imp.mol2 -o imp.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/ipa.mol2
+Reading MOLECULE named IPA  ISOPROPYL ALCOHOL.  C3 H8 O. 
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/man.mol2
+Reading MOLECULE named MAN Alpha-D-Mannose.  C6 H12 O6.
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/mrd.mol2
+Reading MOLECULE named MRD  (4R)-2-METHYLPENTANE-2,4-DIOL.  C6 H14 O2. 
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/prep/mtx.mol2
+Reading MOLECULE named MTX  Methotrexate.
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/mtx.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+MTX  created via parmchk -f mol2 -i mtx.mol2 -o mtx.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/myr.mol2
+Reading MOLECULE named MYR  MYRISTIC ACID.  C14 H28 O2. 
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/nag.mol2
+Reading MOLECULE named NAG  N-Acetyl-D-Glucosamine.  C8 H15 N O6.
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/nag.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+N-Acetyl-D-Glucosamine:  parmchk -f mol2 -i nag.mol2 -o nag.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/nap.mol2
+Reading MOLECULE named NAP  NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE.  C21 H28 N7 O17 P3. 
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/nap.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE:  parmchk -f mol2 -i nap.mol2 -o nap.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/ndg.mol2
+Reading MOLECULE named NDG  2-(Acetylamino)-2-Deoxy-A-D-Glucopyranose.  C8 H15 N O6.
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/ndg.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+2-(Acetylamino)-2-Deoxy-A-D-Glucopyranose:  parmchk -f mol2 -i ndg.mol2 -o ndg.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/ndp.mol2
+Reading MOLECULE named NDP  NADPH DIHYDRO-NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE.  C21 H30 N7 O17 P3. 
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/ndp.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+NADPH DIHYDRO-NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE:  parmchk -f mol2 -i ndp.mol2 -o ndp.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/nsp.mol2
+Reading MOLECULE named NSP  5-(AMINOMETHYL)-2-METHYLPYRIMIDIN-4-AMINE.  C6 H10 N4. 
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/nsp.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+5-(AMINOMETHYL)-2-METHYLPYRIMIDIN-4-AMINE:  parmchk -f mol2 -i nsp.mol2 -o nsp.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/p22.mol2
+Reading MOLECULE named P22  ETHYL DIHYDROGEN DIPHOSPHATE.  C2 H8 O7 P2. 
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/p25.mol2
+Reading MOLECULE named P25  PENTYL TRIHYDROGEN DIPHOSPHATE.  C5 H14 O7 P2. 
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/plp.mol2
+Reading MOLECULE named PLP  PYRIDOXAL-5'-PHOSPHATE.  C8 H10 N O6 P. 
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/plp.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+PYRIDOXAL-5'-PHOSPHATE:  parmchk -f mol2 -i plp.mol2 -o plp.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/sah.mol2
+Reading MOLECULE named SAH  S-ADENOSYL-L-HOMOCYSTEINE.  C14 H20 N6 O5 S. 
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/sah.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+S-ADENOSYL-L-HOMOCYSTEINE:  parmchk -f mol2 -i sah.mol2 -o sah.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/spd.mol2
+Reading MOLECULE named SPD  Spermidine.
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/spd.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Spermidine from 1U8D:  parmchk -f mol2 -i spd.mol2 -o spd.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/suc.mol2
+Reading MOLECULE named SUC  SUCROSE.  C12 H22 O11. 
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/ump.mol2
+Reading MOLECULE named UMP  2'-Deoxyuridine 5'-Monophosphate.  C9 H13 N2 O8 P.
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/ump.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+2'-Deoxyuridine 5'-Monophosphate:  parmchk -f mol2 -i ump.mol2 -o ump.frcmod
+Loading Mol2 file: /home/maksym/Programs/dock6/parameters/leap/parm/yf3.mol2
+Reading MOLECULE named YF3  2-{[(4-AMINO-2-METHYLPYRIMIDIN-5-YL)METHYL]AMINO}PROPANE-1-THIOL.  C9 H16 N4 S. 
+Loading parameters: /home/maksym/Programs/dock6/parameters/leap/parm/yf3.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+2-{[(4-AMINO-2-METHYLPYRIMIDIN-5-YL)METHYL]AMINO}PROPANE-1-THIOL: parmchk -f mol2 -i yf3.mol2 -o yf3.frcmod
+----- Source: /home/maksym/Programs/dock6/parameters/leap/cmd/leaprc.dock.user
+----- Source of /home/maksym/Programs/dock6/parameters/leap/cmd/leaprc.dock.user done
+Loading PDB file: ./1lgu.pdb
+  Added missing heavy atom: .R<CLYS 162>.A<OXT 23>
+  total atoms in file: 1290
+  Leap added 1311 missing atoms according to residue templates:
+       1 Heavy
+       1310 H / lone pairs
+Writing pdb file: 1lgu.amber.pdb
+ Converting N-terminal residue name to PDB format: NMET -> MET
+ Converting C-terminal residue name to PDB format: CLYS -> LYS
+Checking Unit.
+WARNING: The unperturbed charge of the unit: 8.000000 is not zero.
+
+ -- ignoring the warning.
+
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 518 improper torsions applied
+Building H-Bond parameters.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CLYS	1
+	NMET	1
+  )
+ (no restraints)
+	Quit
