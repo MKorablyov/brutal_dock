@@ -11,6 +11,6 @@ d4 - dopamine receptor protein files
 
 ### Join large files if provided as parts
 https://linoxide.com/linux-how-to/split-large-text-file-smaller-files-linux/
-`split: split -b 100MB ampc_100k_optim.parquet`
+``split: split -b 100MB ampc_100k_optim.parquet``
 To make the dataset:
-`cat x* > ampc_100k_optim.parquet`
+``cat x* > ampc_100k_optim.parquet``
