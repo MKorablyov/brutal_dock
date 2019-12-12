@@ -10,7 +10,7 @@ d4 - dopamine receptor protein files
 ---d4_100k_mine_model001 - trained model for energy prediction  
 
 ### Join large files if provided as parts
-https://linoxide.com/linux-how-to/split-large-text-file-smaller-files-linux/
+https://linoxide.com/linux-how-to/split-large-text-file-smaller-files-linux/  
 ```split: split -b 100MB ampc_100k_optim.parquet```  
 To make the dataset:  
 ```cat x* > ampc_100k_optim.parquet```  
