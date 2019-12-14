@@ -21,7 +21,7 @@ calculate_rmsd                                               no
 use_database_filter                                          no
 orient_ligand                                                yes
 automated_matching                                           yes
-receptor_site_file                                           /home/maksym/Datasets/datasets/d4_mine/2_site/matching_spheres.sph
+receptor_site_file                                           {}
 max_orientations                                             500
 critical_points                                              no
 chemical_matching                                            no
@@ -35,7 +35,7 @@ grid_score_secondary                                         no
 grid_score_rep_rad_scale                                     1
 grid_score_vdw_scale                                         1
 grid_score_es_scale                                          1
-grid_score_grid_prefix                                       /home/maksym/Datasets/datasets/d4_mine/3_grid/grid
+grid_score_grid_prefix                                       {}
 multigrid_score_secondary                                    no
 dock3.5_score_secondary                                      no
 continuous_score_secondary                                   no
@@ -62,10 +62,10 @@ simplex_grow_tors_premin_iterations                          0
 simplex_random_seed                                          0
 simplex_restraint_min                                        no
 atom_model                                                   all
-vdw_defn_file                                                /home/maksym/Programs/dock6/parameters/vdw_AMBER_parm99.defn
-flex_defn_file                                               /home/maksym/Programs/dock6/parameters/flex.defn
-flex_drive_file                                              /home/maksym/Programs/dock6/parameters/flex_drive.tbl
-ligand_outfile_prefix                                        anchor_and_grow
+vdw_defn_file                                                {}
+flex_defn_file                                               {}
+flex_drive_file                                              {}
+ligand_outfile_prefix                                        {}
 write_orientations                                           no
 num_scored_conformers                                        1
 rank_ligands                                                 no
