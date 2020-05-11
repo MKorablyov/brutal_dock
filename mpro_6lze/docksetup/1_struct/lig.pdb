@@ -1,0 +1,100 @@
+HETATM    1  C01 ICB D   1       9.502   6.941  25.712  1.00 44.52           C  
+ANISOU    1  C01 ICB D   1     4799   6153   5962    726  -1427   -262       C  
+HETATM    2  C02 ICB D   1       9.476   7.512  24.440  1.00 42.32           C  
+ANISOU    2  C02 ICB D   1     4616   5773   5692    723  -1307   -218       C  
+HETATM    3  C03 ICB D   1       9.429   6.702  23.322  1.00 37.27           C  
+ANISOU    3  C03 ICB D   1     3975   5147   5038    594  -1120   -228       C  
+HETATM    4  C04 ICB D   1       9.414   5.294  23.478  1.00 33.61           C  
+ANISOU    4  C04 ICB D   1     3435   4784   4550    466  -1047   -276       C  
+HETATM    5  C05 ICB D   1       9.445   4.732  24.725  1.00 35.68           C  
+ANISOU    5  C05 ICB D   1     3615   5140   4804    456  -1155   -321       C  
+HETATM    6  C06 ICB D   1       9.490   5.560  25.866  1.00 42.66           C  
+ANISOU    6  C06 ICB D   1     4481   6026   5703    588  -1351   -316       C  
+HETATM    7  C07 ICB D   1       9.416   3.320  24.534  1.00 34.55           C  
+ANISOU    7  C07 ICB D   1     3427   5067   4634    305  -1038   -366       C  
+HETATM    8  C08 ICB D   1       9.355   3.107  23.167  1.00 28.98           C  
+ANISOU    8  C08 ICB D   1     2780   4304   3925    248   -873   -342       C  
+HETATM    9  N09 ICB D   1       9.373   4.287  22.551  1.00 29.23           N  
+ANISOU    9  N09 ICB D   1     2887   4246   3975    339   -883   -288       N  
+HETATM   10  C10 ICB D   1       9.353   1.733  22.444  1.00 24.35           C  
+ANISOU   10  C10 ICB D   1     2213   3734   3306    102   -714   -359       C  
+HETATM   11  O11 ICB D   1       9.206   1.670  21.284  1.00 21.58           O  
+ANISOU   11  O11 ICB D   1     1923   3327   2951     78   -600   -330       O  
+HETATM   12  N   ALC D   2       9.610   0.512  23.240  1.00 24.66           N  
+ANISOU   12  N   ALC D   2     2224   3844   3303     -5   -720   -403       N  
+HETATM   13  CA  ALC D   2       9.669  -0.732  22.557  1.00 25.09           C  
+ANISOU   13  CA  ALC D   2     2337   3879   3316   -127   -581   -405       C  
+HETATM   14  C   ALC D   2       8.310  -1.164  22.023  1.00 27.22           C  
+ANISOU   14  C   ALC D   2     2488   4190   3664   -169   -470   -481       C  
+HETATM   15  O   ALC D   2       7.315  -0.967  22.626  1.00 28.41           O  
+ANISOU   15  O   ALC D   2     2482   4422   3889   -148   -504   -563       O  
+HETATM   16  CB  ALC D   2      10.188  -1.840  23.517  1.00 23.12           C  
+ANISOU   16  CB  ALC D   2     2104   3678   3001   -228   -615   -437       C  
+HETATM   17  CG  ALC D   2      11.594  -1.479  24.158  1.00 25.71           C  
+ANISOU   17  CG  ALC D   2     2556   3980   3231   -199   -734   -370       C  
+HETATM   18  CD1 ALC D   2      12.000  -2.621  25.094  1.00 28.78           C  
+ANISOU   18  CD1 ALC D   2     2960   4420   3555   -311   -754   -417       C  
+HETATM   19  CD2 ALC D   2      12.638  -1.296  23.050  1.00 27.00           C  
+ANISOU   19  CD2 ALC D   2     2886   4044   3329   -193   -661   -278       C  
+HETATM   20  CE1 ALC D   2      13.386  -2.385  25.699  1.00 28.50           C  
+ANISOU   20  CE1 ALC D   2     3060   4366   3405   -302   -860   -358       C  
+HETATM   21  CE2 ALC D   2      14.020  -1.019  23.650  1.00 31.43           C  
+ANISOU   21  CE2 ALC D   2     3581   4584   3777   -194   -751   -220       C  
+HETATM   22  CZ  ALC D   2      14.441  -2.126  24.614  1.00 29.77           C  
+ANISOU   22  CZ  ALC D   2     3383   4426   3501   -291   -774   -270       C  
+HETATM   23  N   ELL D   3       8.349  -1.881  20.764  1.00 22.95           N  
+ANISOU   23  N   ELL D   3     2042   3586   3091   -241   -327   -452       N  
+HETATM   24  CA  ELL D   3       7.095  -2.392  20.176  1.00 23.46           C  
+ANISOU   24  CA  ELL D   3     2035   3675   3203   -305   -207   -513       C  
+HETATM   25  CAE ELL D   3       4.377   1.400  19.652  1.00 25.04           C  
+ANISOU   25  CAE ELL D   3     1935   3920   3659     34   -253   -620       C  
+HETATM   26  C   ELL D   3       7.160  -3.871  19.809  1.00 24.75           C  
+ANISOU   26  C   ELL D   3     2281   3811   3312   -440   -102   -520       C  
+HETATM   27  O   ELL D   3       6.149  -4.420  19.536  1.00 23.45           O  
+ANISOU   27  O   ELL D   3     2058   3675   3177   -516     -9   -578       O  
+HETATM   28  NAH ELL D   3       4.714   1.695  18.461  1.00 22.56           N  
+ANISOU   28  NAH ELL D   3     1754   3515   3301     35   -194   -546       N  
+HETATM   29  OAD ELL D   3       6.569   0.809  17.151  1.00 21.45           O  
+ANISOU   29  OAD ELL D   3     1880   3251   3018    -50   -137   -394       O  
+HETATM   30  CB  ELL D   3       6.638  -1.549  18.971  1.00 23.67           C  
+ANISOU   30  CB  ELL D   3     2083   3651   3260   -236   -147   -481       C  
+HETATM   31  CG  ELL D   3       6.230  -0.042  19.472  1.00 18.49           C  
+ANISOU   31  CG  ELL D   3     1325   3020   2679    -98   -246   -502       C  
+HETATM   32  CD1 ELL D   3       5.181  -0.051  20.067  1.00 24.06           C  
+ANISOU   32  CD1 ELL D   3     1872   3814   3456    -97   -250   -597       C  
+HETATM   33  CD2 ELL D   3       5.955   0.831  18.149  1.00 23.07           C  
+ANISOU   33  CD2 ELL D   3     1965   3529   3272    -41   -182   -463       C  
+CONECT    1    2    6
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5    9
+CONECT    5    4    6    7
+CONECT    6    1    5
+CONECT    7    5    8
+CONECT    8    7    9   10
+CONECT    9    4    8
+CONECT   10    8   11   12
+CONECT   11   10
+CONECT   12   10   13
+CONECT   13   12   14   16
+CONECT   14   13   15   23
+CONECT   15   14
+CONECT   16   13   17
+CONECT   17   16   18   19
+CONECT   18   17   20
+CONECT   19   17   21
+CONECT   20   18   22
+CONECT   21   19   22
+CONECT   22   21   20
+CONECT   23   14   24
+CONECT   24   23   26   30
+CONECT   25   32   28
+CONECT   26   24   27
+CONECT   27   26
+CONECT   28   25   33
+CONECT   29   33
+CONECT   30   24   31
+CONECT   31   30   32   33
+CONECT   32   25   31
+CONECT   33   29   28   31
+END
