@@ -9,6 +9,11 @@ d4 - dopamine receptor protein files
 ---processed   - graphs processed from raw files  
 ---d4_100k_mine_model001 - trained model for energy prediction  
 
+sars-cov-2 - sars-cov-2 receptor protein files
+---proteins    - protein mol2 and pub files  
+---raw         - raw feather files (should be combined) with dockscores for learning  
+---trained_weights   - trained model with hyperparameter and training settings 
+
 ### Join large files if provided as parts
 https://linoxide.com/linux-how-to/split-large-text-file-smaller-files-linux/  
 ```split: split -b 100MB ampc_100k_optim.parquet```  
