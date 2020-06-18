@@ -1,4 +1,4 @@
-### Learning Binding Affinities from Docking 
+### Docking Results
 Docking is a small and cheap (0.1 - 0.01 GPU hours simulation) that provides pose and interaction energy for 2 bodies. 
 The inspiration paper: [Ultra-large library docking for discovering new chemotypes](https://www.nature.com/articles/s41586-019-0917-9), Jiankun Lyi and others, Nature 2019
 
