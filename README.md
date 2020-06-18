@@ -9,4 +9,4 @@ Idea paper: [Ultra-large library docking for discovering new chemotypes](https:/
   * **docksetup** files needed to run docking  
   * **raw** sample of the docking outputs that contain *smiles, dockscore, coordinates*          
   * **trained_weights** trained MPNN weights  
-* **selected structures** a small subset of selected structures of interest to test
+* **selected structures** a small subset of selected structures of interest to test in experiment
